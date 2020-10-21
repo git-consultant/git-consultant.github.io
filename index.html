@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The official SoftbaseGroup website! Keeping up with the speed of change... if you can define it, we can code it. The website to trust for all your coding solutions">
+    <meta name="author" content="Johnny Parker">
+    <meta name="csrf-token" content="yjwug1N7NqpLF6fpifZjt6WNqyPKtR6wPK4IdrKm">
+
+    <title>SoftbaseGroup</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <style>
+    /*!
+     * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
+     * Code licensed under the Apache License v2.0.
+     * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+     */
+    
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    
+    body {
+        font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    }
+    
+    hr {
+        max-width: 50px;
+        border-color: #f05f40;
+        border-width: 3px;
+    }
+    
+    hr.light {
+        border-color: #fff;
+    }
+    
+    a {
+        color: #f05f40;
+        -webkit-transition: all .35s;
+        -moz-transition: all .35s;
+        transition: all .35s;
+    }
+    
+    a:hover,
+    a:focus {
+        color: #eb3812;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    }
+    
+    p {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    .bg-primary {
+        background-color: #f05f40;
+    }
+    
+    .bg-dark {
+        color: #fff;
+        background-color: #222;
+    }
+    
+    .text-faded {
+        color: rgba(255,255,255,.7);
+    }
+    
+    section {
+        padding: 100px 0;
+    }
+    
+    aside {
+        padding: 50px 0;
+    }
+    
+    .no-padding {
+        padding: 0;
+    }
+    
+    .navbar-default {
+        border-color: rgba(34,34,34,.05);
+        font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+        background-color: #fff;
+        -webkit-transition: all .35s;
+        -moz-transition: all .35s;
+        transition: all .35s;
+    }
+    
+    .navbar-default .navbar-header .navbar-brand {
+        text-transform: uppercase;
+        font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+        font-weight: 700;
+        color: #f05f40;
+    }
+    
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: #eb3812;
+    }
+    
+    .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 700;
+        color: #222;
+    }
+    
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #f05f40;
+    }
+    
+    .navbar-default .nav > li.active>a,
+    .navbar-default .nav>li.active>a:focus {
+        color: #f05f40!important;
+        background-color: transparent;
+    }
+    
+    .navbar-default .nav > li.active>a:hover,
+    .navbar-default .nav>li.active>a:focus:hover {
+        background-color: transparent;
+    }
+    
+    @media(min-width:768px) {
+        .navbar-default {
+            border-color: rgba(255,255,255,.3);
+            background-color: transparent;
+        }
+    
+        .navbar-default .navbar-header .navbar-brand {
+            color: rgba(255,255,255,.7);
+        }
+    
+        .navbar-default .navbar-header .navbar-brand:hover,
+        .navbar-default .navbar-header .navbar-brand:focus {
+            color: #fff;
+        }
+    
+        .navbar-default .nav > li>a,
+        .navbar-default .nav>li>a:focus {
+            color: rgba(255,255,255,.7);
+        }
+    
+        .navbar-default .nav > li>a:hover,
+        .navbar-default .nav>li>a:focus:hover {
+            color: #fff;
+        }
+    
+        .navbar-default.affix {
+            border-color: rgba(34,34,34,.05);
+            background-color: #fff;
+        }
+    
+        .navbar-default.affix .navbar-header .navbar-brand {
+            font-size: 14px;
+            color: #f05f40;
+        }
+    
+        .navbar-default.affix .navbar-header .navbar-brand:hover,
+        .navbar-default.affix .navbar-header .navbar-brand:focus {
+            color: #eb3812;
+        }
+    
+        .navbar-default.affix .nav > li>a,
+        .navbar-default.affix .nav>li>a:focus {
+            color: #222;
+        }
+    
+        .navbar-default.affix .nav > li>a:hover,
+        .navbar-default.affix .nav>li>a:focus:hover {
+            color: #f05f40;
+        }
+    }
+    
+    header {
+        position: relative;
+        width: 100%;
+        min-height: auto;
+        text-align: center;
+        color: #fff;
+        background-image: url(/assets/images/header.jpg);
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    
+    header .header-content {
+        position: relative;
+        width: 100%;
+        padding: 100px 15px;
+        text-align: center;
+    }
+    
+    header .header-content .header-content-inner h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    
+    header .header-content .header-content-inner hr {
+        margin: 30px auto;
+    }
+    
+    header .header-content .header-content-inner p {
+        margin-bottom: 50px;
+        font-size: 16px;
+        font-weight: 300;
+        color: rgba(255,255,255,.7);
+    }
+    
+    @media(min-width:768px) {
+        header {
+            min-height: 100%;
+        }
+    
+        header .header-content {
+            position: absolute;
+            top: 50%;
+            padding: 0 50px;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+    
+        header .header-content .header-content-inner {
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 1000px;
+        }
+    
+        header .header-content .header-content-inner p {
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 80%;
+            font-size: 18px;
+        }
+    }
+    
+    .section-heading {
+        margin-top: 0;
+    }
+    
+    .service-box {
+        margin: 50px auto 0;
+        max-width: 400px;
+    }
+    
+    @media(min-width:992px) {
+        .service-box {
+            margin: 20px auto 0;
+        }
+    }
+    
+    .service-box p {
+        margin-bottom: 0;
+    }
+    
+    .portfolio-box {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        max-width: 650px;
+    }
+    
+    .portfolio-box .portfolio-box-caption {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+        opacity: 0;
+        background: rgba(240,95,64,.9);
+        -webkit-transition: all .35s;
+        -moz-transition: all .35s;
+        transition: all .35s;
+    }
+    
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        transform: translateY(-50%);
+    }
+    
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        padding: 0 15px;
+        font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    }
+    
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 18px;
+    }
+    
+    .portfolio-box:hover .portfolio-box-caption {
+        opacity: 1;
+    }
+    
+    @media(min-width:768px) {
+        .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+            font-size: 16px;
+        }
+    
+        .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+            font-size: 22px;
+        }
+    }
+    
+    .call-to-action h2 {
+        margin: 0 auto 20px;
+    }
+    
+    .text-primary {
+        color: #f05f40;
+    }
+    
+    .no-gutter > [class*=col-] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .btn-default {
+        border-color: #fff;
+        color: #222;
+        background-color: #fff;
+        -webkit-transition: all .35s;
+        -moz-transition: all .35s;
+        transition: all .35s;
+    }
+    
+    .btn-default:hover,
+    .btn-default:focus,
+    .btn-default.focus,
+    .btn-default:active,
+    .btn-default.active,
+    .open > .dropdown-toggle.btn-default {
+        border-color: #ededed;
+        color: #222;
+        background-color: #f2f2f2;
+    }
+    
+    .btn-default:active,
+    .btn-default.active,
+    .open > .dropdown-toggle.btn-default {
+        background-image: none;
+    }
+    
+    .btn-default.disabled,
+    .btn-default[disabled],
+    fieldset[disabled] .btn-default,
+    .btn-default.disabled:hover,
+    .btn-default[disabled]:hover,
+    fieldset[disabled] .btn-default:hover,
+    .btn-default.disabled:focus,
+    .btn-default[disabled]:focus,
+    fieldset[disabled] .btn-default:focus,
+    .btn-default.disabled.focus,
+    .btn-default[disabled].focus,
+    fieldset[disabled] .btn-default.focus,
+    .btn-default.disabled:active,
+    .btn-default[disabled]:active,
+    fieldset[disabled] .btn-default:active,
+    .btn-default.disabled.active,
+    .btn-default[disabled].active,
+    fieldset[disabled] .btn-default.active {
+        border-color: #fff;
+        background-color: #fff;
+    }
+    
+    .btn-default .badge {
+        color: #fff;
+        background-color: #222;
+    }
+    
+    .btn-primary {
+        border-color: #f05f40;
+        color: #fff;
+        background-color: #f05f40;
+        -webkit-transition: all .35s;
+        -moz-transition: all .35s;
+        transition: all .35s;
+    }
+    
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary.focus,
+    .btn-primary:active,
+    .btn-primary.active,
+    .open > .dropdown-toggle.btn-primary {
+        border-color: #ed431f;
+        color: #fff;
+        background-color: #ee4b28;
+    }
+    
+    .btn-primary:active,
+    .btn-primary.active,
+    .open > .dropdown-toggle.btn-primary {
+        background-image: none;
+    }
+    
+    .btn-primary.disabled,
+    .btn-primary[disabled],
+    fieldset[disabled] .btn-primary,
+    .btn-primary.disabled:hover,
+    .btn-primary[disabled]:hover,
+    fieldset[disabled] .btn-primary:hover,
+    .btn-primary.disabled:focus,
+    .btn-primary[disabled]:focus,
+    fieldset[disabled] .btn-primary:focus,
+    .btn-primary.disabled.focus,
+    .btn-primary[disabled].focus,
+    fieldset[disabled] .btn-primary.focus,
+    .btn-primary.disabled:active,
+    .btn-primary[disabled]:active,
+    fieldset[disabled] .btn-primary:active,
+    .btn-primary.disabled.active,
+    .btn-primary[disabled].active,
+    fieldset[disabled] .btn-primary.active {
+        border-color: #f05f40;
+        background-color: #f05f40;
+    }
+    
+    .btn-primary .badge {
+        color: #f05f40;
+        background-color: #fff;
+    }
+    
+    .btn {
+        border: 0;
+        border-radius: 300px;
+        text-transform: uppercase;
+        font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+        font-weight: 700;
+    }
+    
+    .btn-xl {
+        padding: 15px 30px;
+    }
+    
+    ::-moz-selection {
+        text-shadow: none;
+        color: #fff;
+        background: #222;
+    }
+    
+    ::selection {
+        text-shadow: none;
+        color: #fff;
+        background: #222;
+    }
+    
+    img::selection {
+        color: #fff;
+        background: 0 0;
+    }
+    
+    img::-moz-selection {
+        color: #fff;
+        background: 0 0;
+    }
+    
+    body {
+        webkit-tap-highlight-color: #222;
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Softbasegroup.com</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Keeping up with the speed of change</h1>
+                <hr>
+                <p>
+                <!-- Header content goes here -->
+                </p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Why choose us...</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Why us?</h2>
+                    <hr class="light">
+                    <p class="text-faded">Softbase is the company of choice in choosing a company for the development of software tailored to meet any user environment. With our team of experts in UML (Unified Modeling Language) design, the company has all it takes to understand your very basic business needs and develop software models to suit them.</p>
+                    <p class="text-faded">Our principles are firmly embedded in our goals: </p>
+
+                    <blockquote> We aim to solve complex business problems by leveraging the best of latest technologies to provide a cost effective alternative to software products. Through research and development, to develop software solutions tailored to seamlessly integrate with the ever - changing business practices our clients face.</blockquote>
+
+                    <p class="text-faded">Softbase is one of few software companies that give you the leverage of both quality product and affordability. Our products are not only affordable, they work and our growing customer confidence and market penetration is evidence.</p>
+
+                    <p class="text-faded">At Softbase, you bring out your ideas, dreams and imaginations; we make your ideas a reality, your dreams tangible and bring life to your imaginations. Choose Softbase for prompt delivery of quality service at prices you can afford.</p>
+                    <!--a href="#" class="btn btn-default btn-xl"></a-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">If you can define it, we can solve it</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-database wow bounceIn text-primary"></i>
+                        <h3>Database Management</h3>
+                        <p class="text-muted">Oracle | MySQL | SQL Server | Informix </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-spinner wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3>System Automation</h3>
+                        <p class="text-muted">Automated SMS Services | Device Communication | Cloud Apps</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3>Education Software</h3>
+                        <p class="text-muted">Exams Applications | Tutorials | Software Training</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-bullseye wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3>Biometric Solutions</h3>
+                        <p class="text-muted">Fingerprint and Biometric Systems</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-3 col-sm-6">
+                    <a href="#" class="portfolio-box" target="_blank">
+                        <img src="/assets/images/profile/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+
+                                </div>
+                                <div class="project-name">
+
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <a href="http://exceed.softbasegroup.com" class="portfolio-box">
+                        <img src="/assets/images/profile/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Education
+                                </div>
+                                <div class="project-name">
+                                    Exceed!
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="/assets/images/profile/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Multimedia
+                                </div>
+                                <div class="project-name">
+                                    Yearbook
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="/assets/images/profile/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    System Automation
+                                </div>
+                                <div class="project-name">
+                                    SMBase
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Check out the Exceed! demo</h2>
+                <a href="http://bece.softbasegroup.com/index.html" target="_blank" class="btn btn-default btn-xl wow tada">Launch Demo</a>
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container" >
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Contact us and let us know how we can help</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-mobile-phone fa-3x wow bounceIn"></i>
+                    <p>+233-244-224-424</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="" data-toggle="modal" data-target="#contact-form" id="mail-to"><img src="/assets/images/info_email.jpg"></a></p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr/>
+    <div class="container">
+        <footer class="small">
+            <!--ul class="list-inline social">
+                <li><a href="" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="" target="_blank" title="github"><i class="fa fa-github"></i></a></li>
+                <li><a href="" target="_blank" title="youtube"><i class="fa fa-youtube"></i></a></li>
+            </ul-->
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-inline pull-left">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="pull-right">
+                        <span class="text-muted">&copy; <a href="http://blak-solutions.co.uk">Blak Solutions</a>  2020 | &copy; Softbase 2020 |   credits: StartBootstrap.com
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="modal fade"  id="contact-form" tabindex="-1" role="dialog" aria-labelledby="contactFormTitle" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="contactFormTitle"><i class="fa fa-paper-plane" aria-hidden="true"></i> Contact Us</h3>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal" name="frmContact" >
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="name">Name:</label>
+                            <div class="col-md-6">
+                                <div class="input-group">
+                                    <input type="text" name="name" placeholder="Please enter your full name"
+                                     class="form-control" required />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="col-md-4 control-label" for="email">Email:</label>
+                          <div class="col-md-6">
+                            <div class="input-group">
+                              <input type="email" name="email" placeholder="Your email message"
+                                     class="form-control" required />
+                            </div>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="form-group">
+                          <label class="col-md-4 control-label" for="message">Message</label>
+                          <div class="col-md-6">
+                            <div class="input-group">
+                              <textarea name="message" placeholder="Type your message here..." class="form-control "></textarea>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-md-4"></div>
+                            <div class="col-md-6">
+                              <input type="checkbox" name="expect_reply" /> Send me a copy
+                          </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-success" id='btnSend' ><i class="fa fa-paper-plane-o"></i> Send</button>
+                  <button class="btn btn-default" data-dismiss="modal"><i class="fa fa-times-circle-o"></i> Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery and Bootstrap-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha512-ahmSZKApTDNd3gVuqL5TQ3MBTj8tL5p2tYV05Xxzcfu6/ecvt1A0j6tfudSGBVuteSoTRMqMljbfdU0g2eDNUA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js" integrity="sha512-e2WVdoOGqKU97DHH6tYamn+eAwLDpyHKqPy4uSv0aGlwDXZKGwyS27sfiIUT8gpZ88/Lr4UZpbRt93QkGRgpug==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script type="text/javascript">
+        /*!
+         * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
+         * Code licensed under the Apache License v2.0.
+         * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+         */
+    "use strict"; // Start of use strict
+    
+    (function($) {
+        // jQuery for page scrolling feature - requires jQuery Easing plugin
+        $('a.page-scroll').bind('click', function(event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: ($($anchor.attr('href')).offset().top - 50)
+            }, 1250, 'easeInOutExpo');
+            event.preventDefault();
+        });
+        // Highlight the top nav as scrolling occurs
+        $('body').scrollspy({
+            target: '.navbar-fixed-top',
+            offset: 51
+        })
+        // Closes the Responsive Menu on Menu Item Click
+        $('.navbar-collapse ul li a').click(function() {
+            $('.navbar-toggle:visible').click();
+        });
+        // Fit Text Plugin for Main Header
+        $("h1").fitText(
+            1.2, {
+                minFontSize: '35px',
+                maxFontSize: '65px'
+            }
+        );
+        // Offset for Main Navigation
+        $('#mainNav').affix({
+            offset: {
+                top: 100
+            }
+        });
+        // Initialize WOW.js Scrolling Animations
+        new WOW().init();
+    
+        $("#btnSend").click(function () {
+            var frmContact = $('form[name=frmContact]').serializeArray();
+    
+            // Assign handlers immediately after making the request,
+            // and remember the jqxhr object for this request
+            var jqxhr = $.post( "/contact", frmContact ,function() {
+                alert('message sent. Thanks');
+                $('#contact-form').hide();
+            }, 'json')
+            .done(function(resonse) {
+                $('#contact-form').hide();
+            })
+            .fail(function(response) {
+                $('#contact-form').hide();
+            });
+        });
+        // var  dialog = $( "#contact-form" ).dialog({
+        //     autoOpen: false,
+        //     height: 300,
+        //     width: 650,
+        //     modal: true,
+        //     buttons: {
+        //         Cancel: function() {
+        //             dialog.dialog( "close" );
+        //         }
+        //     },
+        //     close: function() {
+        //     }
+        // });
+        // var form = dialog.find( "form" ).on( "submit", function( event ) {
+        //     event.preventDefault();
+        // });
+        // $("#mails-to").click (function(event) {
+        //     event.preventDefault();
+        //     dialog.dialog( "open" );
+        // });
+    })(jQuery); // End of use strict
+    </script> 
+</body>
+</html>
