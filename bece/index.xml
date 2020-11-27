@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tree>
+  <classNode label="Dashboard: Science Past Questions">
+    <node label="1990" img="images/solar.jpg" url="Softbase/PastQue1990.swf" desc="Which of the following is a liquid?"/>
+    <node label="1991" img="images/matter.jpg" url="Softbase/PastQue1991.swf" desc="The digestion of carbohydrates starts in the.. "/>
+    <node label="1992" img="images/measurement.jpg" url="Softbase/PastQue1992.swf" desc="Which of the following is true about matter? It has.."/>
+    <node label="1993" img="images/measurement.jpg" url="Softbase/PastQue1993.swf" desc="The three states of matter are"/>
+    <node label="1994" img="images/measurement.jpg" url="Softbase/PastQue1994.swf" desc="Which of the following substances can exist in the three states of matter at 0°C?"/>
+    <node label="1995" img="images/measurement.jpg" url="Softbase/PastQue1995.swf" desc="Which of the following activities does not cause soil erosion?"/>
+    <node label="1996" img="images/measurement.jpg" url="Softbase/PastQue1996.swf" desc="Which of the following is a sexually transmitted disease?"/>
+    <node label="1997" img="images/measurement.jpg" url="Softbase/PastQue1997.swf" desc="Digested food is absorbed into the blood stream through the"/>
+    <node label="1998" img="images/measurement.jpg" url="Softbase/PastQue1998.swf" desc="Which of the following processes could be used to preserve fish for a long time?"/>
+    <node label="1999" img="images/measurement.jpg" url="Softbase/PastQue1999.swf" desc="A mixture of sand and common salt could be separated by "/>
+    <node label="2000" img="images/measurement.jpg" url="Softbase/PastQue2000.swf" desc="Which of the following organs is used by the fish for movement?"/>
+    <node label="2001" img="images/measurement.jpg" url="Softbase/PastQue2001.swf" desc="The main pollutant from domestic fires is"/>
+    <node label="2002 - April" img="images/measurement.jpg" url="Softbase/PastQue2002A.swf" desc="The gas usually used in fire extinguishers is"/>
+    <node label="2002 - July" img="images/measurement.jpg" url="Softbase/PastQue2002B.swf" desc="Which of the following substances is made up of only one kind of atom?"/>
+    <node label="2003" img="images/measurement.jpg" url="Softbase/PastQue2003.swf" desc="The method used to separate an insoluble solid from a liquid is"/>
+    <node label="2004" img="images/measurement.jpg" url="Softbase/PastQue2004.swf" desc="Which of the following processes of conversion of the state of matter is correct"/>
+    <node label="2005" img="images/measurement.jpg" url="Softbase/PastQue2005.swf" desc="Hydrogen is represented by the chemical symbol H2. This symbol represents "/>
+    <node label="2006" img="images/measurement.jpg" url="Softbase/PastQue2006.swf" desc="The property of a rock that makes it different from water is that it has"/>
+    <node label="2007" img="images/measurement.jpg" url="Softbase/PastQue2007.swf" desc="Which of the following properties is true about all matter? Matter has"/>
+    <node label="2008" img="images/measurement.jpg" url="Softbase/PastQue2008.swf" desc="A metre rule can be used for measuring the"/>
+    <node label="2009" img="images/measurement.jpg" url="Softbase/PastQue2009.swf" desc="Plants are different from animals because they"/>
+    <node label="2010" img="images/measurement.jpg" url="Softbase/PastQue2010.swf" desc="Water that forms lather rather readily with soap is said to be"/>
+  </classNode>
+</tree>
